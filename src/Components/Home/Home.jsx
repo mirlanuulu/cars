@@ -6,7 +6,7 @@ function Home() {
     <div className='text-white'>
 
 
-      <div className='bg-cover bg-center min-h-screen flex flex-col items-center justify-center'  style={{ backgroundImage: `url(${car})`}}>
+      <div className='w-[1920px] mx-auto bg-cover bg-center min-h-screen flex flex-col items-center justify-center'  style={{ backgroundImage: `url(${car})`}}>
         
         <h1 className='text-5xl font-bold text-red-500 mt-20'>CAR MUSIC</h1>
         <h1 className='text-7xl text-red-500'>. . . .</h1>
@@ -43,7 +43,7 @@ function Home() {
       </div>
 
       
-      <div className='container w-[1900px] flex mx-auto bg-neutral-900'>
+      <div className=' w-[1920px] flex mx-auto bg-neutral-900'>
       
         <div className='container mx-auto p-[180px]'>
           <h1 className='uppercase'>наши достижения от кубка россии до чемпионатов мира</h1>
@@ -98,28 +98,27 @@ function Home() {
           
           </div>
         
-          <div>
-
-          <div>
-
-            <div>
-              <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At saepe obcaecati facilis dolorem modi, facere optio impedit. Perspiciatis consequatur adipisci tempora hic labore ut corrupti, incidunt nisi vitae ducimus ipsa?</p>
-            </div>
-            <div>
-              <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At saepe obcaecati facilis dolorem modi, facere optio impedit. Perspiciatis consequatur adipisci tempora hic labore ut corrupti, incidunt nisi vitae ducimus ipsa?</p>
-            </div>
-            <div>
-              <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At saepe obcaecati facilis dolorem modi, facere optio impedit. Perspiciatis consequatur adipisci tempora hic labore ut corrupti, incidunt nisi vitae ducimus ipsa?</p>
-            </div>
-
-          </div>
-
-          </div>
-
+        
       </div>
+
+          <div class='bg-black'>
+
+            <div>
+              <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At saepe obcaecati facilis dolorem modi, facere optio impedit. Perspiciatis consequatur adipisci tempora hic labore ut corrupti, incidunt nisi vitae ducimus ipsa?</p>
+            </div>
+            <div>
+              <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At saepe obcaecati facilis dolorem modi, facere optio impedit. Perspiciatis consequatur adipisci tempora hic labore ut corrupti, incidunt nisi vitae ducimus ipsa?</p>
+            </div>
+            <div>
+              <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At saepe obcaecati facilis dolorem modi, facere optio impedit. Perspiciatis consequatur adipisci tempora hic labore ut corrupti, incidunt nisi vitae ducimus ipsa?</p>
+            </div>
+
+          </div>
+
+
 
     </div>
   );

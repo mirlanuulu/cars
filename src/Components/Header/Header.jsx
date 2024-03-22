@@ -3,7 +3,7 @@ import car from '../../assets/png/car.png'
 
 function Home() {
   return (
-    <div className='w-full flex flex-wrap items-center justify-around bg-cover'  style={{ backgroundImage: `url(${car})` }}>
+    <div className='w-[1920px] flex flex-wrap items-center justify-around bg-cover'  style={{ backgroundImage: `url(${car})` }}>
 
         <div className='container flex justify-around'>
 
